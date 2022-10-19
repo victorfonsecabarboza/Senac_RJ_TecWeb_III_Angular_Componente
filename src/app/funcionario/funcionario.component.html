@@ -1,0 +1,20 @@
+<table border="8">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let funcionario of funcionarios">
+            <td>{{funcionario.nome}}</td>
+            <td>{{funcionario.idade}}</td>
+        </tr>
+    </tbody>
+</table>
+
+<div>
+    {{funcionario.nome}}
+    {{funcionario.idade}}
+</div>
